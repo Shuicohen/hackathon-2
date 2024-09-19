@@ -13,7 +13,6 @@ html, body {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to bottom right, #e0e0ff, #fff);
     color: #333;
     display: flex;
     flex-direction: column;
@@ -193,9 +192,12 @@ header {
 }
 
 .about {
-    margin-top: 150px;
+    margin-top: 1500px; 
+    padding: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    max-width: 600px; /* Optional: to control width of the text block */
   }
 
 /* Footer styles */
